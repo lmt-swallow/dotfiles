@@ -1,0 +1,10 @@
+[user]
+	email = takashi.yoneuchi@shift-js.info
+	name = Takashi Yoneuchi
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	excludesfile = ~/.global_gitignore

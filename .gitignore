@@ -1,0 +1,7 @@
+.emacs.d/auto-save-list/.*
+.emacs.d/session.*
+.emacs.d/recentf
+.emacs.d/ac-comphist.dat
+.zsh_history
+.zsh/02_hidden.sh
+.zsh/99_tmp.sh

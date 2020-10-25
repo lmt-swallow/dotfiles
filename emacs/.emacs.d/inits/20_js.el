@@ -1,0 +1,5 @@
+(use-package js2-mode)
+(use-package company-tern)
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(add-hook 'js2-mode-hook 'tern-mode)
+(add-to-list 'company-backends 'company-tern)

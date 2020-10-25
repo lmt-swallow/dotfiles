@@ -1,0 +1,6 @@
+[submodule ".tmux/tmux-powerline"]
+	path = .tmux/tmux-powerline
+	url = https://github.com/erikw/tmux-powerline.git
+[submodule ".emacs.d/themes/emacs-color-theme-solarized"]
+	path = .emacs.d/themes/emacs-color-theme-solarized
+	url = https://github.com/sellout/emacs-color-theme-solarized.git
