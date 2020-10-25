@@ -1,5 +1,9 @@
 # dotfiles
 
+This repository manages dotfiles for [@lmt-swallow](https://github.com/lmt-swallow).
+
+## How to setup
+
 ```sh
 # in your shell...
 
