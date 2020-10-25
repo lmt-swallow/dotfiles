@@ -3,6 +3,7 @@ echo '[*] checking for updates ...'
 set --local base (pwd)
 
 cd ~/.dotfiles
+git fetch origin
 if git diff --exit-code master origin/master 
     echo '[*] no update found.'    
 else
