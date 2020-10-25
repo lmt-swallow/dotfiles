@@ -1,6 +1,6 @@
 echo '[*] checking for updates ...'
 
-set --local base $(pwd)
+set --local base (pwd)
 
 cd ~/.dotfiles
 if git diff --exit-code master origin/master 
