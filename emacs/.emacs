@@ -270,8 +270,27 @@
 	       ;; nope
 	       )))
 
-;; TODO: add more languages
+;; json
+(use-package fish-mode
+  :ensure t
+  :mode ("\\.fish\\'" . fish-mode)
+  :init
+  (add-hook 'fish-mode
+	    '(lambda ()
+	       ;; base
+	       ;; nope
 
+	       ;; autocomplete
+	       ;; nope
+	       
+	       ;; fmt
+	       ;; TODO
+	       
+	       ;; additional
+	       ;; nope
+	       )))
+
+;; TODO: add more languages
 
 ;; project management
 ;;;;;;;;;;;;;;;
