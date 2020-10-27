@@ -4,7 +4,7 @@ set --local base (pwd)
 
 cd ~/.dotfiles
 git fetch origin
-if git diff --exit-code master origin/master 
+if git diff --exit-code master origin/master >/dev/null
     echo '[*] no update found.'    
 else
     echo '[*] update found. pulling ...'
