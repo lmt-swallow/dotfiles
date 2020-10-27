@@ -8,7 +8,7 @@ else
 end
 
 # go
-if type -q go 
+if not type -q go 
     echo "[*] go is not installed."
 end
 export PATH="$GOROOT/bin:$PATH"
