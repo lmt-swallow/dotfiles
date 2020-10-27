@@ -7,6 +7,7 @@ alias g='grep'
 alias gs='git status'
 alias ga='git add --all'
 alias gc='git commit -m'
+alias gf='git commit --amend -m'
 alias gp='git push -u origin HEAD'
 alias far='find . -type f | xargs grep'
 
