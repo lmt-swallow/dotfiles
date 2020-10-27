@@ -9,3 +9,5 @@ for file in $files
     echo "[*] $file"    
     source "$file"
 end
+
+cd $basedir
