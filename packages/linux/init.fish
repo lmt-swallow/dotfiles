@@ -14,4 +14,8 @@ end
 
 if not type -q bwrap
     sudo apt install bubblewrap
-end    
+end
+
+if not type -q peco
+    sudo apt install peco
+end
