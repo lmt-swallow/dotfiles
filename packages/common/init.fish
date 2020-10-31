@@ -1,8 +1,12 @@
 #!/usr/bin/fish
 
 # rust
-if not type -q rustc
-    curl https://sh.rustup.rs -sSf | sh
+if not type -q rustup
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+end
+
+if not rustc
+    rustup install stable
 end
 
 # npm
