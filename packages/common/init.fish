@@ -11,8 +11,17 @@ end
 
 # npm
 if not type -q npm
-    curl http://npmjs.org/install.sh | sh
-end    
+    curl http://npmjs.org/install.sh | sh    
+end
+
+if not type -q n
+    npm install -g n
+end
+
+# wasme
+if not type -q wasme
+    curl -sL https://run.solo.io/wasme/install | sh
+end
 
 # omf
 if not type -q omf
