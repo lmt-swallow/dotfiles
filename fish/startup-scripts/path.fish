@@ -16,6 +16,9 @@ export PATH="$HOME/.wasme/bin:$PATH"
 # llvm
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 
+# spring
+export PATH="/usr/local/bin/spring/bin:$PATH"
+
 if test -d /opt/riscv/bin
     export PATH="/opt/riscv/bin:$PATH"
 end 

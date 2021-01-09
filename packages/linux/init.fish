@@ -20,6 +20,10 @@ if not type -q peco
     sudo apt install peco
 end
 
+if not type -q tig
+    sudo apt install tig
+end
+
 if not type -q gh
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
     sudo apt-add-repository https://cli.github.com/packages
